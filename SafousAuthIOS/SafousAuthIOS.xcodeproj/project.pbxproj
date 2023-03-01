@@ -8,9 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D2E52DD429AF8E4300F289FA /* SafousAuthIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E52DCB29AF8E4300F289FA /* SafousAuthIOS.framework */; };
-		D2E52DD929AF8E4300F289FA /* SafousAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E52DD829AF8E4300F289FA /* SafousAuthTests.swift */; };
-		D2E52DDA29AF8E4300F289FA /* SafousAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E52DCE29AF8E4300F289FA /* SafousAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2E52DE429AF8E6400F289FA /* SafousAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E52DE329AF8E6400F289FA /* SafousAuth.swift */; };
+		D2E52DEA29AF8F8000F289FA /* SafousAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E52DE829AF8F8000F289FA /* SafousAuth.swift */; };
+		D2E52DEB29AF8F8000F289FA /* SafousAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E52DE929AF8F8000F289FA /* SafousAuth.h */; };
+		D2E52DEE29AF8F8900F289FA /* SafousAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E52DED29AF8F8900F289FA /* SafousAuthTests.swift */; };
+		D2E52DF629AF900D00F289FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E52DF529AF900D00F289FA /* AppDelegate.swift */; };
+		D2E52DFA29AF900D00F289FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E52DF929AF900D00F289FA /* ViewController.swift */; };
+		D2E52DFD29AF900D00F289FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E52DFB29AF900D00F289FA /* Main.storyboard */; };
+		D2E52DFF29AF900F00F289FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E52DFE29AF900F00F289FA /* Assets.xcassets */; };
+		D2E52E0229AF900F00F289FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E52E0029AF900F00F289FA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,10 +30,17 @@
 
 /* Begin PBXFileReference section */
 		D2E52DCB29AF8E4300F289FA /* SafousAuthIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SafousAuthIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2E52DCE29AF8E4300F289FA /* SafousAuth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafousAuth.h; sourceTree = "<group>"; };
 		D2E52DD329AF8E4300F289FA /* SafousAuthIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafousAuthIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2E52DD829AF8E4300F289FA /* SafousAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafousAuthTests.swift; sourceTree = "<group>"; };
-		D2E52DE329AF8E6400F289FA /* SafousAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafousAuth.swift; sourceTree = "<group>"; };
+		D2E52DE829AF8F8000F289FA /* SafousAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafousAuth.swift; sourceTree = "<group>"; };
+		D2E52DE929AF8F8000F289FA /* SafousAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafousAuth.h; sourceTree = "<group>"; };
+		D2E52DED29AF8F8900F289FA /* SafousAuthTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafousAuthTests.swift; sourceTree = "<group>"; };
+		D2E52DF329AF900D00F289FA /* SafourAuthExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafourAuthExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E52DF529AF900D00F289FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2E52DF929AF900D00F289FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2E52DFC29AF900D00F289FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2E52DFE29AF900F00F289FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2E52E0129AF900F00F289FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2E52E0329AF900F00F289FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,15 +59,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2E52DF029AF900D00F289FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		D2E52DC129AF8E4300F289FA = {
 			isa = PBXGroup;
 			children = (
-				D2E52DCD29AF8E4300F289FA /* SafousAuth */,
-				D2E52DD729AF8E4300F289FA /* SafousAuthTests */,
+				D2E52DF429AF900D00F289FA /* SafourAuthExample */,
 				D2E52DCC29AF8E4300F289FA /* Products */,
+				D2E52DE729AF8F8000F289FA /* SafousAuthIOS */,
+				D2E52DEC29AF8F8900F289FA /* SafousAuthIOSTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,25 +84,39 @@
 			children = (
 				D2E52DCB29AF8E4300F289FA /* SafousAuthIOS.framework */,
 				D2E52DD329AF8E4300F289FA /* SafousAuthIOSTests.xctest */,
+				D2E52DF329AF900D00F289FA /* SafourAuthExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D2E52DCD29AF8E4300F289FA /* SafousAuth */ = {
+		D2E52DE729AF8F8000F289FA /* SafousAuthIOS */ = {
 			isa = PBXGroup;
 			children = (
-				D2E52DCE29AF8E4300F289FA /* SafousAuth.h */,
-				D2E52DE329AF8E6400F289FA /* SafousAuth.swift */,
+				D2E52DE829AF8F8000F289FA /* SafousAuth.swift */,
+				D2E52DE929AF8F8000F289FA /* SafousAuth.h */,
 			);
-			path = SafousAuth;
+			path = SafousAuthIOS;
 			sourceTree = "<group>";
 		};
-		D2E52DD729AF8E4300F289FA /* SafousAuthTests */ = {
+		D2E52DEC29AF8F8900F289FA /* SafousAuthIOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				D2E52DD829AF8E4300F289FA /* SafousAuthTests.swift */,
+				D2E52DED29AF8F8900F289FA /* SafousAuthTests.swift */,
 			);
-			path = SafousAuthTests;
+			path = SafousAuthIOSTests;
+			sourceTree = "<group>";
+		};
+		D2E52DF429AF900D00F289FA /* SafourAuthExample */ = {
+			isa = PBXGroup;
+			children = (
+				D2E52DF529AF900D00F289FA /* AppDelegate.swift */,
+				D2E52DF929AF900D00F289FA /* ViewController.swift */,
+				D2E52DFB29AF900D00F289FA /* Main.storyboard */,
+				D2E52DFE29AF900F00F289FA /* Assets.xcassets */,
+				D2E52E0029AF900F00F289FA /* LaunchScreen.storyboard */,
+				D2E52E0329AF900F00F289FA /* Info.plist */,
+			);
+			path = SafourAuthExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,7 +126,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2E52DDA29AF8E4300F289FA /* SafousAuth.h in Headers */,
+				D2E52DEB29AF8F8000F289FA /* SafousAuth.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +169,23 @@
 			productReference = D2E52DD329AF8E4300F289FA /* SafousAuthIOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D2E52DF229AF900D00F289FA /* SafourAuthExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E52E0429AF900F00F289FA /* Build configuration list for PBXNativeTarget "SafourAuthExample" */;
+			buildPhases = (
+				D2E52DEF29AF900D00F289FA /* Sources */,
+				D2E52DF029AF900D00F289FA /* Frameworks */,
+				D2E52DF129AF900D00F289FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafourAuthExample;
+			productName = SafourAuthExample;
+			productReference = D2E52DF329AF900D00F289FA /* SafourAuthExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -150,6 +201,9 @@
 						LastSwiftMigration = 1340;
 					};
 					D2E52DD229AF8E4300F289FA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D2E52DF229AF900D00F289FA = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -169,6 +223,7 @@
 			targets = (
 				D2E52DCA29AF8E4300F289FA /* SafousAuthIOS */,
 				D2E52DD229AF8E4300F289FA /* SafousAuthIOSTests */,
+				D2E52DF229AF900D00F289FA /* SafourAuthExample */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +243,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2E52DF129AF900D00F289FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E52E0229AF900F00F289FA /* LaunchScreen.storyboard in Resources */,
+				D2E52DFF29AF900F00F289FA /* Assets.xcassets in Resources */,
+				D2E52DFD29AF900D00F289FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2E52DE429AF8E6400F289FA /* SafousAuth.swift in Sources */,
+				D2E52DEE29AF8F8900F289FA /* SafousAuthTests.swift in Sources */,
+				D2E52DEA29AF8F8000F289FA /* SafousAuth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +269,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2E52DD929AF8E4300F289FA /* SafousAuthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E52DEF29AF900D00F289FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E52DFA29AF900D00F289FA /* ViewController.swift in Sources */,
+				D2E52DF629AF900D00F289FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +290,25 @@
 			targetProxy = D2E52DD529AF8E4300F289FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2E52DFB29AF900D00F289FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2E52DFC29AF900D00F289FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2E52E0029AF900F00F289FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2E52E0129AF900F00F289FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D2E52DDB29AF8E4300F289FA /* Debug */ = {
@@ -427,6 +520,60 @@
 			};
 			name = Release;
 		};
+		D2E52E0529AF900F00F289FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SafourAuthExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinet.SafourAuthExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2E52E0629AF900F00F289FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SafourAuthExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinet.SafourAuthExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -453,6 +600,15 @@
 			buildConfigurations = (
 				D2E52DE129AF8E4300F289FA /* Debug */,
 				D2E52DE229AF8E4300F289FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2E52E0429AF900F00F289FA /* Build configuration list for PBXNativeTarget "SafourAuthExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E52E0529AF900F00F289FA /* Debug */,
+				D2E52E0629AF900F00F289FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
