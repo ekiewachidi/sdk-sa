@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2E52DD429AF8E4300F289FA /* SafousAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E52DCB29AF8E4300F289FA /* SafousAuth.framework */; };
+		D2E52DD429AF8E4300F289FA /* SafousAuthIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E52DCB29AF8E4300F289FA /* SafousAuthIOS.framework */; };
 		D2E52DD929AF8E4300F289FA /* SafousAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E52DD829AF8E4300F289FA /* SafousAuthTests.swift */; };
 		D2E52DDA29AF8E4300F289FA /* SafousAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E52DCE29AF8E4300F289FA /* SafousAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2E52DE429AF8E6400F289FA /* SafousAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E52DE329AF8E6400F289FA /* SafousAuth.swift */; };
@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D2E52DCB29AF8E4300F289FA /* SafousAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SafousAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E52DCB29AF8E4300F289FA /* SafousAuthIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SafousAuthIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E52DCE29AF8E4300F289FA /* SafousAuth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafousAuth.h; sourceTree = "<group>"; };
-		D2E52DD329AF8E4300F289FA /* SafousAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafousAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E52DD329AF8E4300F289FA /* SafousAuthIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafousAuthIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E52DD829AF8E4300F289FA /* SafousAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafousAuthTests.swift; sourceTree = "<group>"; };
 		D2E52DE329AF8E6400F289FA /* SafousAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafousAuth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2E52DD429AF8E4300F289FA /* SafousAuth.framework in Frameworks */,
+				D2E52DD429AF8E4300F289FA /* SafousAuthIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,8 +62,8 @@
 		D2E52DCC29AF8E4300F289FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2E52DCB29AF8E4300F289FA /* SafousAuth.framework */,
-				D2E52DD329AF8E4300F289FA /* SafousAuthTests.xctest */,
+				D2E52DCB29AF8E4300F289FA /* SafousAuthIOS.framework */,
+				D2E52DD329AF8E4300F289FA /* SafousAuthIOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,9 +99,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D2E52DCA29AF8E4300F289FA /* SafousAuth */ = {
+		D2E52DCA29AF8E4300F289FA /* SafousAuthIOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2E52DDD29AF8E4300F289FA /* Build configuration list for PBXNativeTarget "SafousAuth" */;
+			buildConfigurationList = D2E52DDD29AF8E4300F289FA /* Build configuration list for PBXNativeTarget "SafousAuthIOS" */;
 			buildPhases = (
 				D2E52DC629AF8E4300F289FA /* Headers */,
 				D2E52DC729AF8E4300F289FA /* Sources */,
@@ -112,14 +112,14 @@
 			);
 			dependencies = (
 			);
-			name = SafousAuth;
+			name = SafousAuthIOS;
 			productName = SafousAuth;
-			productReference = D2E52DCB29AF8E4300F289FA /* SafousAuth.framework */;
+			productReference = D2E52DCB29AF8E4300F289FA /* SafousAuthIOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D2E52DD229AF8E4300F289FA /* SafousAuthTests */ = {
+		D2E52DD229AF8E4300F289FA /* SafousAuthIOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2E52DE029AF8E4300F289FA /* Build configuration list for PBXNativeTarget "SafousAuthTests" */;
+			buildConfigurationList = D2E52DE029AF8E4300F289FA /* Build configuration list for PBXNativeTarget "SafousAuthIOSTests" */;
 			buildPhases = (
 				D2E52DCF29AF8E4300F289FA /* Sources */,
 				D2E52DD029AF8E4300F289FA /* Frameworks */,
@@ -130,9 +130,9 @@
 			dependencies = (
 				D2E52DD629AF8E4300F289FA /* PBXTargetDependency */,
 			);
-			name = SafousAuthTests;
+			name = SafousAuthIOSTests;
 			productName = SafousAuthTests;
-			productReference = D2E52DD329AF8E4300F289FA /* SafousAuthTests.xctest */;
+			productReference = D2E52DD329AF8E4300F289FA /* SafousAuthIOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -154,7 +154,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D2E52DC529AF8E4300F289FA /* Build configuration list for PBXProject "SafousAuth" */;
+			buildConfigurationList = D2E52DC529AF8E4300F289FA /* Build configuration list for PBXProject "SafousAuthIOS" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -167,8 +167,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2E52DCA29AF8E4300F289FA /* SafousAuth */,
-				D2E52DD229AF8E4300F289FA /* SafousAuthTests */,
+				D2E52DCA29AF8E4300F289FA /* SafousAuthIOS */,
+				D2E52DD229AF8E4300F289FA /* SafousAuthIOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,7 +212,7 @@
 /* Begin PBXTargetDependency section */
 		D2E52DD629AF8E4300F289FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2E52DCA29AF8E4300F289FA /* SafousAuth */;
+			target = D2E52DCA29AF8E4300F289FA /* SafousAuthIOS */;
 			targetProxy = D2E52DD529AF8E4300F289FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -430,7 +430,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2E52DC529AF8E4300F289FA /* Build configuration list for PBXProject "SafousAuth" */ = {
+		D2E52DC529AF8E4300F289FA /* Build configuration list for PBXProject "SafousAuthIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2E52DDB29AF8E4300F289FA /* Debug */,
@@ -439,7 +439,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2E52DDD29AF8E4300F289FA /* Build configuration list for PBXNativeTarget "SafousAuth" */ = {
+		D2E52DDD29AF8E4300F289FA /* Build configuration list for PBXNativeTarget "SafousAuthIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2E52DDE29AF8E4300F289FA /* Debug */,
@@ -448,7 +448,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2E52DE029AF8E4300F289FA /* Build configuration list for PBXNativeTarget "SafousAuthTests" */ = {
+		D2E52DE029AF8E4300F289FA /* Build configuration list for PBXNativeTarget "SafousAuthIOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2E52DE129AF8E4300F289FA /* Debug */,
